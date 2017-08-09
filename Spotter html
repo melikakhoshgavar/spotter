@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="Spotter" name="title">
+	<meta content="A mobile application helps you attain fitness goals with personalized training plans and connecting you to to your fitness community" name="description">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<style media="screen" type="text/css">
+	/*<![CDATA[*/@import 'style.css';/*]]>*/
+	</style>
+	<style type="text/css">
+	#title,#glyphs p{font-family:"DevilBreezeLight"}
+	</style>
+	<style media="screen" type="text/css">
+	/*<![CDATA[*/@import 'stylesheet.css';/*]]>*/
+	</style>
+	<style type="text/css">
+	#title,#glyphs p{font-family:"DevilBreezeDemi"}
+	</style>
+	<link href="spotterstyle.css" rel="stylesheet" type="text/css">
+	<title></title>
+</head>
+<body>
+	<div class="number1">
+    <nav class="navcontent">
+      <div class="navbuttons">
+        <h3><a href="#aboutlink">About</a></h3>
+        <h3><a href="#Features">Features</a></h3>
+        <h3><a href="#Contact">Contact</a></h3>
+      </div>
+      <div class="sign-buttons">
+        <button class="sign-in" type="button">Sign In</button> <button class="sign-up" type="button">Sign Up</button>
+      </div>
+    </nav>
+    <section class="section-a">
+      <div class="header1">
+        <h1 class="spotter">SPOTTER</h1>
+        <h2 class="tag-line">Get Connected. Get Results.</h2>
+				<div class="findgym">
+          <button class="find-your-gym" type="button">Find Your Gym</button>
+				</div>
+      </div>
+      <a href="#about"><img class="down-arrow" src="./assets/downarrow.png"></a>
+    </section>
+  </div>
+	<main>
+		<section class="section1"id="about">
+			<h1 class="helvetica">Never miss a workout again.</h1>
+			<div class="features" style="margin-left: 2em">
+				<div>
+					<h3 class="color2">Set Goals</h3><img src="./assets/setgoals.png">
+					<p>Spotter helps you set realistic fitness goals to get you back in shape.</p>
+				</div>
+				<div>
+					<h3 class="color3">Get Connected</h3><img src="./assets/getconnected.png">
+					<p>Connect with people in your community and social networks that are members of your gym and are on the same fitness journey.</p>
+				</div>
+				<div>
+					<h3 class="color4">Get Results</h3><img src="./assets/getresults.png">
+					<p>Spotter provides comprehensive reporting, motivational messages, and rewards personal records to ensure you are achieve your goals.</p>
+				</div>
+			</div>
+		</section>
+		<section class="section2">
+			<div class="training-plans">
+				<h1 class="tp">personalized training plans</h1><img class="phone1" src="./assets/Feature%201.png"></div>
+			<div class="training-plans">
+				<h1 class="tp">find a training partner</h1><img class="phone2" src="./assets/Feature%202.png"></div>
+		</section>
+		<section class="section3">
+			<div class="workout-reminders">
+			<h1 class="tp">workout reminders</h1><img class="apple-watch1"  src="./assets/Feat3.png"></div>
+			<div class="workout-reminders">
+			<h1 class="tp">achieve your goals</h1><img class="apple-watch2" src="./assets/Feat4.png"></div>
+		</section>
+		<section class="section4">
+			<h1>always be strong.</h1>
+			<div class="app-store-icons">
+				<a href="#"><img class="social-media" src="./assets/appstore.png"></a> <a href="#"><img class="social-media" src="./assets/googleplay.png"></a>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<nav class="footer-bar">
+			<div class="footer-content">
+				<div class="contact">
+				<h3>Contact</h3>
+				<p>support@spotter.com</p>
+				<p>1 (800) 777-8437</p>
+			</div>
+			<div class="footer-nav">
+				<h3>About</h3>
+				<h3>Features</h3>
+			</div>
+			<div class="social-icons">
+				<a href="#"><img class="facebook" src="./assets/facebook.png"></a> <a href="#"><img class="twitter" src="./assets/twitter.png"></a> <a href="#"><img class="instagram" src="./assets/instagram.png"></a>
+			</div>
+		</div>
+		</nav>
+	</footer>
+</body>
+</html>
